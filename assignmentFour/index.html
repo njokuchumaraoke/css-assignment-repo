@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment Four</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../assets/images/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../assets/images/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../assets/images/favicon_io/favicon-16x16.png"
+    />
+    <link
+      rel="manifest"
+      href="../assets/images/favicon_io/site.webmanifest"
+    />
+    
+    <link rel="stylesheet" href="../assignmentFour/assets/styles/style.css" />
+  </head>
+  <body>
+    <div class="full-container">
+      <section class="page-details">
+        <img src="../assignmentFour/assets/images/Logo.svg" alt="logo image" />
+        <h1 class="hero-h1">For Individuals</h1>
+
+        <!-- Paragraph for mobile screens -->
+        <p class="hero-para-phone">
+          Inspiring wholesome harmony for the mind, body and spirit, for
+          everyone, everywhere.
+        </p>
+        <!-- Paragraph for Larger Screens -->
+        <p class="hero-para-desktop">
+          Start benefiting from the wellness experience. For companies looking
+          on increasing productivity, and improving organization wellness.
+        </p>
+      </section>
+
+      <section class="form-details">
+        <form action="submit" class="form-data">
+          <div class="grid-form">
+            <div class="firstname">
+              <label for="firstname">First Name</label>
+              <input type="text" value="Tolu"/>
+            </div>
+
+            <div class="lastname">
+              <label for="lastname">Last Name</label>
+              <input type="text" />
+            </div>
+          </div>
+
+          <div class="grid-form">
+            <div class="gender">
+              <label for="gender">Gender</label>
+              <select name="genderSelect" id="gender">
+                <option value="" disabled selected>Select here</option>
+              </select>
+            </div>
+
+            <div class="dob">
+              <label for="dob">Date of Birth</label>
+              <input
+                type="text"
+                name="dob"
+                id="dob"
+                placeholder="Select here"
+                onfocus="(this.type='date')"
+              />
+            </div>
+          </div>
+
+          <div class="grid-form">
+            <div class="weight">
+              <label for="weight">Weight (KG)</label>
+              <input
+                type="number"
+                name="weight"
+                id="weight"
+                placeholder="Enter Weight"
+              />
+            </div>
+
+            <div class="height">
+              <label for="height">Height (CM)</label>
+              <input
+                type="number"
+                name="height"
+                id="height"
+                placeholder="Enter height here"
+              />
+            </div>
+          </div>
+
+          <div class="activitylevel">
+            <label for="activitylevel">Activity Level</label>
+            <select name="activitylevel" id="activitylevel">
+              <option value="" disabled selected>Select here</option>
+            </select>
+          </div>
+
+          <div class="password">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" />
+          </div>
+
+          <input class="register-button" type="button" value="Register" />
+        </form>
+
+        <p class="consent">
+          By clicking Register, you agree to our
+          <a href="#" target="_blank" rel="noopener noreferrer">Terms of Use</a>
+          and our
+          <a href="#" target="_blank" rel="noopener noreferrer"
+            >Privacy Policy</a
+          >
+        </p>
+      </section>
+    </div>
+  </body>
+</html>

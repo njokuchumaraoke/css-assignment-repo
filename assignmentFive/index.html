@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment Five</title>
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../assets/images/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../assets/images/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../assets/images/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="../assets/images/favicon_io/site.webmanifest" />
+
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="logo">
+          <img
+            src="./assets/images/wppusher-logo copy.png"
+            alt="wppusher-logo"
+          />
+        </div>
+
+        <nav>
+          <div class="nav-link">
+            <a href="">Download</a>
+            <a href="">Learn more</a>
+            <a href="">Pricing</a>
+            <a href="">Help</a>
+            <a href="">Account</a>
+          </div>
+        </nav>
+      </div>
+
+      <hr class="header-divider" />
+    </header>
+
+    <main>
+      <div class="grid-container">
+        <div class="grid-cell-one">
+          <form action="" class="form-data">
+            <h1>Checkout</h1>
+
+            <hr />
+
+            <div class="form-details-container">
+              <p>
+                <span class="detail-numbering">1</span> Your Basic Information
+              </p>
+
+              <div class="grid-container-inner">
+                <div class="flex-item">
+                  <label for="firstName">First Name</label>
+                  <input
+                    type="text"
+                    name="firstName"
+                    id="firstName"
+                    placeholder="Jane"
+                  />
+                </div>
+
+                <div class="flex-item">
+                  <label for="lastName">Last Name</label>
+                  <input
+                    type="text"
+                    name="lastName"
+                    id="lastName"
+                    placeholder="Doe"
+                  />
+                </div>
+              </div>
+
+              <div class="email-container">
+                <label for="email">E-mail</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="janedoe@exomple.com"
+                />
+              </div>
+            </div>
+
+            <hr />
+
+            <div class="form-details-container">
+              <p>
+                <span class="detail-numbering">2</span> Your Payment Information
+              </p>
+
+              <div class="credit-card-container">
+                <fieldset class="credit-card-fieldset">
+                  <label for="creditCard">Credit Card</label>
+
+                  <div class="credit-card-horizontal-stack">
+                    <input
+                      type="tel"
+                      name="cardNumber"
+                      id="cardNumber"
+                      pattern="[0-9] {16}"
+                      placeholder="Card Number"
+                    />
+                    <input
+                      type="tel"
+                      name="expiration-month"
+                      aria-label="Expiration month"
+                      id="expiration-month"
+                      placeholder="MM"
+                    />
+                    <input
+                      type="tel"
+                      name="expiration-year"
+                      aria-label="Expiration year"
+                      id="expiration-year"
+                      placeholder="YY"
+                    />
+                    <input
+                      type="tel"
+                      name="cvcNumber"
+                      id="cvcNumber"
+                      placeholder="CVC"
+                    />
+                  </div>
+                </fieldset>
+              </div>
+            </div>
+
+            <hr />
+
+            <div class="buy-button-container">
+              <input type="button" value="Buy WP Pusher" />
+
+              <div class="contact-support-container">
+                <p>
+                  <span class="question-mark">?</span
+                  ><strong> Need any help</strong> Don&apos;t hesitate to
+                  contact support!
+                </p>
+              </div>
+            </div>
+
+            <div class="powered-by-container">
+              <div class="powered-by">
+                <p>Powered by <span>stripe</span></p>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="grid-cell-two">
+          <h2>Freelancer</h2>
+
+          <div class="price">
+            <p><sup>$</sup>99<sub>/ year</sub></p>
+          </div>
+
+          <p class="renew-description">
+            Automatically renews <br />
+            after 1 year
+          </p>
+
+          <div class="feature-container">
+            <p>
+              <img src="./assets/images/Picture1.png" alt="" srcset="" /> Use on
+              5 client site
+            </p>
+            <p>
+              <img src="./assets/images/Picture1.png" alt="" srcset="" />
+              Private repositories
+            </p>
+            <p>
+              <img src="./assets/images/Picture1.png" alt="" srcset="" /> Email
+              support
+            </p>
+          </div>
+
+          <div class="call-to-action">
+            <p>Need <b>20</b> client sites?</p>
+            <p>Switch to the Agency plan.</p>
+          </div>
+
+          <hr />
+
+          <div class="customer-feedback-container">
+            <div class="comment">
+              <p>
+                FTP is horrible to deal with. <span>WP Pusher</span> solves that
+                issue, and the customer support is awesome!
+              </p>
+            </div>
+
+            <div class="customer-picture-container">
+              <div class="customer-picture">
+                <img src="./assets/images/Bitmap.png" alt="" />
+              </div>
+
+              <div class="customer-name">
+                <p>Kirk Beard</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2018 WP Pusher IVS · <span>Terms of Service</span></p>
+    </footer>
+  </body>
+</html>
