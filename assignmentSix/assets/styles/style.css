@@ -1,0 +1,484 @@
+body,
+html,
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url(../fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+  font-family: Gilroy-Medium;
+  src: url(../fonts/Gilroy-Medium.ttf);
+}
+
+@font-face {
+  font-family: Gilroy-SemiBold;
+  src: url(../fonts/Gilroy-SemiBold.ttf);
+}
+
+/* Start of hero section */
+header {
+  margin-top: 12px;
+  margin-left: 145px;
+  margin-right: 145px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-navigation a {
+  margin-left: 40px;
+  font-family: gilroy-medium;
+  font-size: 18px;
+  line-height: 21.09px;
+  color: #141414;
+}
+
+.log-in {
+  color: #0065fe !important;
+}
+
+.call-to-action a {
+  margin-left: 24px;
+  font-family: Gilroy-SemiBold;
+  font-size: 16px;
+  color: #0065fe;
+  line-height: 12px;
+}
+
+.blue-background-button {
+  color: #ffffff !important;
+  padding: 16px 32px 16px 32px;
+  background-color: #0065fe;
+  width: 142px !important;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.hero-writeup-container {
+  margin-top: 106px;
+  width: 948px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-family: Gilroy-Bold;
+  font-size: 48px;
+  line-height: 96px;
+  color: #141414;
+  text-align: center;
+}
+
+.hero-title span {
+  color: #005ae2;
+}
+
+.blue-line {
+  margin-top: -10px;
+  text-align: center;
+}
+
+.hero-paragraph {
+  margin-top: 12px;
+  width: 781px;
+  height: 105px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-paragraph p {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #141414;
+}
+
+.hero-button {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.hero-button a {
+  font-family: Gilroy-SemiBold;
+  font-size: 16px;
+  line-height: 12px;
+  text-align: left;
+  color: #0065fe;
+}
+
+.signup {
+  margin-right: 56px;
+  padding: 16px 42px 16px 42px;
+}
+
+.grey-rectangle-container {
+  margin-left: 123px;
+  height: 336.57px;
+  width: 833px;
+  box-sizing: border-box;
+  margin-top: 56px;
+  position: relative;
+  margin-right: auto;
+}
+
+.grey-rectangle {
+  top: 24px;
+  left: 65px;
+  width: 768px;
+  height: 224px;
+  padding: 40px 60px 40px 60px;
+  border-radius: 24px;
+  border: 0.5px solid #005ae2;
+  background-image: linear-gradient(to right, #e2e9f0, #ffff);
+  backdrop-filter: blur(212px);
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.grey-rectangle p {
+  margin-top: 16px;
+  padding-left: 110px;
+  padding-right: 110px;
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.grey-rectangle span {
+  font-family: Gilroy-SemiBold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.curved-angle {
+  position: absolute;
+  top: 5px;
+  left: 65px;
+  z-index: -1;
+}
+
+.rectangle {
+  width: 100%;
+  height: 93px;
+  margin-left: auto;
+  padding-top: 20px;
+  padding-bottom: 24px;
+  margin-right: auto;
+  background-color: #f8f7f7;
+  clip-path: polygon(15% 0%, 85% 0%, 100% 100%, 0% 100%);
+}
+
+.oval {
+  width: 956px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(
+    180deg,
+    rgba(226, 233, 240, 0.7) 10.68%,
+    rgba(220, 228, 235, 0.7) 44.01%,
+    rgba(226, 233, 240, 0) 100%
+  );
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px 0px #122459;
+}
+/* End of hero section */
+
+/* Start of company information section */
+/* metrics container section */
+.metrics-container,
+.company-information {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 60px 140px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 96px;
+}
+
+.metrics-container {
+  background-color: #f9fbfd;
+}
+
+.description p {
+  font-family: Gilroy-Bold;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: left;
+  color: #141414;
+}
+
+.description span {
+  color: #005ae2;
+}
+
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.metrics h3 {
+  font-family: Gilroy-SemiBold;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: left;
+  color: #141414;
+}
+
+.metrics p {
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: #141414;
+}
+
+/* Company information section */
+
+.company-information {
+  padding: 128px 123px 130px 123px;
+}
+
+.why-choose h3 {
+  font-family: Gilroy-Bold;
+  font-size: 40px;
+  line-height: 32px;
+  text-align: left;
+  color: #141414;
+  padding-left: 16px;
+  border-left: 5px solid;
+  border-image-source: linear-gradient(to bottom, #112232, #ffffff);
+  border-image-slice: 1;
+}
+
+.why-choose span {
+  color: #005ae2;
+}
+
+.why-choose p {
+  margin-top: 16px;
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: left;
+  width: 370px;
+  padding-left: 16px;
+}
+
+.services {
+  padding-top: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+
+.services div {
+  height: 220px;
+  margin-bottom: 64px;
+  box-sizing: border-box;
+}
+
+.services div h3 {
+  font-family: Gilroy-SemiBold;
+  font-size: 32px;
+  line-height: 28px;
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 16px;
+  color: #141414;
+}
+
+.services div p {
+  width: 340px;
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: #141414;
+}
+
+/* This is pricing section */
+.pricing-section {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 42px 176px 112px 176px;
+}
+
+.pricing-header-description {
+  text-align: center;
+}
+
+.pricing-header-description h3 {
+  margin: 0px auto;
+  width: 576px;
+  font-family: Gilroy-Bold;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  padding-left: 10px;
+  border-left: 5px solid;
+  border-image-source: linear-gradient(to bottom, #112232, #ffffff);
+  border-image-slice: 1;
+}
+
+.pricing-header-description span {
+  color: #005ae2;
+}
+
+.pricing-header-description p {
+  margin-top: 8px;
+  width: 556px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 68px;
+  text-align: center;
+}
+
+.pricing-details-container {
+  height: 627px;
+  width: 1088px;
+  box-sizing: border-box;
+  margin: 0px auto 68px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0px;
+}
+
+.pricing-free-plan {
+  width: 379px;
+  height: 455px;
+  margin-top: 86px;
+  box-sizing: border-box;
+  border-radius: 12px 0px 0px 12px;
+  border: 0.4px solid;
+  border-color: #005ae2;
+  box-shadow: 0px 4px 8px 0px #0000000d;
+  padding: 24px 57px 45px 87px;
+}
+
+.pricing-professional-plan {
+  width: 410px;
+  height: 627px;
+  top: 218px;
+  left: 515px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  background-color: #1e3448;
+  box-shadow: 0px 4px 8px 0px #0000000d;
+  padding: 95px 106px 148px 65px;
+  color: #ffffff;
+}
+
+.pricing-teams-plan {
+  width: 379px;
+  height: 455px;
+  margin-top: 86px;
+  box-sizing: border-box;
+  border-radius: 0px 12px 12px 0px;
+  border: 0.4px solid;
+  border-color: #005ae2;
+  box-shadow: 0px 4px 8px 0px #0000000d;
+  padding: 24px 57px 45px 87px;
+}
+
+.pricing-plan {
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: left;
+}
+
+.pricing-details-container h3 {
+  font-family: Gilroy-Bold;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: left;
+}
+
+.pricing-plan-description {
+  font-family: Gilroy-Medium;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: left;
+}
+
+.pricing-plan-specs p {
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.pricing-plan-specs img {
+  margin-right: 8px;
+}
+
+.pricing-free-plan .pricing-plan,
+.pricing-teams-plan .pricing-plan {
+  margin-bottom: 34px;
+}
+
+.pricing-free-plan h3,
+.pricing-teams-plan h3,
+.pricing-professional-plan h3 {
+  margin-bottom: 8px;
+}
+
+.pricing-free-plan .pricing-plan-specs,
+.pricing-teams-plan .pricing-plan-specs {
+  margin-top: 16px;
+}
+
+.pricing-professional-plan .pricing-plan {
+  margin-bottom: 24px;
+}
+
+.pricing-professional-plan .pricing-plan-specs {
+  margin-top: 24px;
+}
+
+.pricing-call-to-action {
+  text-align: center;
+}
+
+.get-custom-pricing-button {
+  margin-right: 6px;
+  padding: 18px 29px;
+  border: 1px solid #0065fe;
+  border-radius: 100px;
+  font-family: Gilroy-SemiBold;
+  font-size: 16px;
+  line-height: 12px;
+  text-align: center;
+  width: 200px;
+  color: #0065fe;
+}
+
+.select-pricing-button {
+  margin-left: 6px;
+  padding: 18px 49px;
+  border-radius: 100px;
+  font-family: Gilroy-SemiBold;
+  font-size: 16px;
+  width: 200px;
+  line-height: 12px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #0065fe;
+}
