@@ -205,10 +205,11 @@ h1 {
   padding: 60px 140px;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 96px;
 }
 
 .metrics-container {
+  gap: 120px;
+  padding: 62px 140px 62px 140px;
   background-color: #f9fbfd;
 }
 
@@ -226,6 +227,7 @@ h1 {
 
 .metrics {
   display: grid;
+  gap: 72px;
   grid-template-columns: repeat(4, 1fr);
 }
 
@@ -249,6 +251,7 @@ h1 {
 
 .company-information {
   padding: 128px 123px 130px 123px;
+  gap: 96px;
 }
 
 .why-choose h3 {
@@ -281,7 +284,6 @@ h1 {
   padding-top: 16px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 28px;
 }
 
 .services div {
@@ -366,6 +368,7 @@ h1 {
   box-sizing: border-box;
   border-radius: 12px 0px 0px 12px;
   border: 0.4px solid;
+  border-right: 0px;
   border-color: #005ae2;
   box-shadow: 0px 4px 8px 0px #0000000d;
   padding: 24px 57px 45px 87px;
@@ -391,6 +394,7 @@ h1 {
   box-sizing: border-box;
   border-radius: 0px 12px 12px 0px;
   border: 0.4px solid;
+  border-left: 0px;
   border-color: #005ae2;
   box-shadow: 0px 4px 8px 0px #0000000d;
   padding: 24px 57px 45px 87px;
@@ -454,25 +458,29 @@ h1 {
 }
 
 .pricing-call-to-action {
+  width: 100%;
   text-align: center;
+  height: 48px;
 }
 
 .get-custom-pricing-button {
-  margin-right: 6px;
+  margin-right: 3px;
   padding: 18px 29px;
   border: 1px solid #0065fe;
   border-radius: 100px;
   font-family: Gilroy-SemiBold;
   font-size: 16px;
   line-height: 12px;
+  box-sizing: border-box;
   text-align: center;
   width: 200px;
   color: #0065fe;
 }
 
 .select-pricing-button {
-  margin-left: 6px;
+  margin-left: 3px;
   padding: 18px 49px;
+  box-sizing: border-box;
   border-radius: 100px;
   font-family: Gilroy-SemiBold;
   font-size: 16px;
@@ -481,4 +489,107 @@ h1 {
   text-align: center;
   color: #ffffff;
   background-color: #0065fe;
+}
+
+.trim-url-section {
+  width: 100%;
+  padding: 84px 0px;
+  /* background: linear-gradient(
+    346.02deg, 
+    #1E3448,#005AE2
+  ); */
+
+  background: #1e3448;
+}
+
+.form-data {
+  width: 476px;
+  height: 355px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+  background: #ffffff;
+  padding: 42px;
+  box-sizing: border-box;
+}
+
+.form-data input,
+select {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 24px;
+}
+
+#url {
+  border: 1px solid #3284ff;
+  width: 392px;
+  height: 55px;
+  padding: 8px 12px 8px 12px;
+  border-radius: 12px;
+}
+
+#url::placeholder,
+#alias::placeholder {
+  color: #3284ff;
+  font-family: Gilroy-Medium;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: left;
+}
+
+.grid-form-input {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+#alias {
+  width: 178px;
+  height: 48px;
+  padding: 8px 12px 8px 12px;
+  border-radius: 12px;
+  border: 1px solid #3284ff;
+}
+
+#domain {
+  width: 202px;
+  height: 48px;
+  padding: 16px 0px 16px 20px;
+  border-radius: 12px;
+  border: 1px solid #3284ff;
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  text-align: left;
+  color: #3284ff;
+}
+
+input[type="submit"] {
+  border: 0px;
+  height: 48px;
+  border-radius: 100px;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  background-color: #005ae2;
+  font-family: Gilroy-SemiBold;
+  font-size: 14px;
+  line-height: 12px;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+.form-data p {
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: #4991ff;
+}
+
+.form-data span {
+  font-family: Gilroy-Bold;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
 }
