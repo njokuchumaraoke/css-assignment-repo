@@ -200,7 +200,7 @@ h1 {
 /* metrics container section */
 .metrics-container,
 .company-information {
-  width: 100%;
+  /* width: 100%; */
   box-sizing: border-box;
   padding: 60px 140px;
   display: grid;
@@ -493,7 +493,7 @@ h1 {
 
 /* This is the trim form section */
 .trim-url-section {
-  width: 100%;
+  /* width: 100%; */
   padding: 84px 0px;
   /* background: linear-gradient(
     346.02deg, 
@@ -592,4 +592,112 @@ input[type="submit"] {
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0%;
+}
+
+/* This is the FAQs Section */
+
+.faq-section {
+  /* width: 100%; */
+  padding: 43px 0px 123px 0px;
+}
+
+.faq-details {
+  width: 792px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+.faq-header {
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.faq-header h3 {
+  width: 112px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Gilroy-Bold;
+  font-size: 40px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  border-left: 5px solid;
+  border-image-source: linear-gradient(to bottom, #112232, #ffffff);
+  border-image-slice: 1;
+}
+
+.faq-content details {
+  margin-bottom: 32px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d6d6d6;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.faq-content summary {
+  padding-bottom: 16px;
+  position: relative;
+  font-family: "Gilroy-Medium", sans-serif; /* Ensure proper fallback */
+  font-size: 20px;
+  cursor: pointer;
+  line-height: 32px;
+}
+
+.faq-content summary::marker {
+  content: none;
+}
+
+.faq-content summary::before {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  background: url("../images/plus.png") center no-repeat;
+  width: 24px;
+  height: 24px;
+  left: 778px; /* Space between the icon and text */
+}
+
+.faq-content details[open] summary::before {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  background: url("../images/minus.png") center no-repeat;
+  width: 24px;
+  height: 24px;
+  left: 778px;
+}
+
+/* Get Started Section */
+.get-started-section {
+  background: #1e3448;
+  padding-top: 109px;
+  padding-bottom: 53px;
+  text-align: center;
+}
+
+.get-started-container {
+  width: 806px;
+  height: 137px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.get-started-container h2 {
+  font-family: Gilroy-Bold;
+  font-size: 40px;
+  line-height: 57px;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.get-started-button a {
+  width: 200px;
+  height: 48px;
+  border-radius: 100px;
+  padding: 18px 56px;
+  background-color: #005ae2;
+  font-family: Gilroy-SemiBold;
+  font-size: 16px;
+  line-height: 12px;
+  color: #ffffff;
 }
