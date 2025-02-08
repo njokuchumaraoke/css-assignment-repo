@@ -491,6 +491,7 @@ h1 {
   background-color: #0065fe;
 }
 
+/* This is the trim form section */
 .trim-url-section {
   width: 100%;
   padding: 84px 0px;
@@ -498,7 +499,6 @@ h1 {
     346.02deg, 
     #1E3448,#005AE2
   ); */
-
   background: #1e3448;
 }
 
