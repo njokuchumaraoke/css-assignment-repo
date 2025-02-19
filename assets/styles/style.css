@@ -62,7 +62,9 @@ p {
 
 @keyframes spin {
   from {
-    transform: scale(1.2) rotate(1turn);
+    /* transform: scale(1.2) rotate(1turn); */
+    transform: scale(1.2);
+
   }
 }
 
